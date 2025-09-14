@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#83D96E</color>
+    <color name="darkgreen">#375F40</color>
+    <color name="credslidergray">#302D2D</color>
+    <color name="transperent">#00000000</color>
+    <color name="grayBack">#9B9B9B</color>
+    <color name="gray">#E5E5E5</color>
+</resources>

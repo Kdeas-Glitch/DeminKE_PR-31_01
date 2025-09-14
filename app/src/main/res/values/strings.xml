@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DeminKE_PR-31_01</string>
+    <string name="reg">Регистрация</string>
+    <string name="log_pas">Введите ваш логин и пароль</string>
+    <string name="log">Логин</string>
+    <string name="pas">Пароль</string>
+    <string name="login">ВОЙТИ</string>
+    <string name="ras">РАСЧИТАТЬ</string>
+    <string name="glav">на главное меню</string>
+    <string name="title_activity_calculate">Calculate</string>
+    <string name="creditCal">Кредитный калькулятор</string>
+    <string name="creditMin">от 30 000</string>
+    <string name="creditMax">до 100 000</string>
+    <string name="creditCount">Сколько вам нужно</string>
+    <string name="vvodcreditSrok">введите срок кредита</string>
+    <string name="creditEj">ежемесячный платёж</string>
+    <string name="creditsSum">Сумма кредита</string>
+    <string name="creditSrok">срок кредита</string>
+    <string name="wantget">Вы хотите взять: 50000</string>
+</resources>

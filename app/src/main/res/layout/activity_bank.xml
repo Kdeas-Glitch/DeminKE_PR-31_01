@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_bank">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="65dp"
+        android:text="@string/reg"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="36dp"/>
+    <ImageView
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:background="@drawable/bank_icon"/>
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="519dp"
+        android:background="@color/green"
+        android:layout_marginTop="171dp"/>
+    <TextView
+        android:layout_width="283dp"
+        android:layout_height="38dp"
+        android:text="@string/log_pas"
+        android:textColor="@color/black"
+        android:layout_marginTop="236dp"
+        android:layout_marginLeft="55dp"
+        android:gravity="center_vertical"
+        android:textSize="14dp"/>
+    <EditText
+        android:layout_width="282dp"
+        android:layout_height="36dp"
+        android:hint="@string/log"
+        android:textColor="@color/black"
+        android:layout_marginTop="288dp"
+        android:layout_marginLeft="56dp"
+        android:textColorHint="@color/black"
+        android:gravity="bottom"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:id="@+id/Login"/>
+
+    <EditText
+        android:layout_width="282dp"
+        android:layout_height="36dp"
+        android:hint="@string/pas"
+        android:textColor="@color/black"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="56dp"
+        android:textColorHint="@color/black"
+        android:gravity="bottom"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:id="@+id/password"
+        />
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/button_log"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="30dp"
+        android:onClick="sing_in"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="160dp"/>
+
+
+
+
+</RelativeLayout>
